@@ -61,10 +61,10 @@ class SimulacionColas:
     def calcular_promedio_cola(self):
         """Aqui se muestran las estadisticas finales dadas por las
         anteriores 2 funciones"""
-        print("Pacientes atendidos:", self.pacientes_atendidos)
+        print("Pacientes atendidos en pregunta 1:", self.pacientes_atendidos)
         promedio_cola = self.tiempo_cola / self.pacientes_atendidos if self.pacientes_atendidos > 0 else 0
-        print("Tiempo total en cola:", self.tiempo_cola)
-        print("Promedio de tiempo en cola por paciente:", promedio_cola)
+        print("Tiempo total en cola en pregunta 1:", self.tiempo_cola)
+        print("Promedio de tiempo en cola por paciente en pregunta 1:", promedio_cola)
 
 
 # Parámetros del sistema
@@ -126,10 +126,10 @@ class SimulacionColas:
     def calcular_promedio_cola(self):
         """Aqui se muestran las estadisticas finales dadas por las
         anteriores 2 funciones"""
-        print("Pacientes atendidos:", self.pacientes_atendidos)
+        print("Pacientes atendidos en pregunta 2:", self.pacientes_atendidos)
         promedio_cola = self.tiempo_cola / self.pacientes_atendidos if self.pacientes_atendidos > 0 else 0
-        print("Tiempo total en cola:", self.tiempo_cola)
-        print("Promedio de tiempo en cola por paciente:", promedio_cola)
+        print("Tiempo total en cola en pregunta 2:", self.tiempo_cola)
+        print("Promedio de tiempo en cola por paciente en pregunta 2:", promedio_cola)
 
 
 # Parámetros del sistema
@@ -231,9 +231,9 @@ class SimulacionColas:
     def mostrar_estadisticas(self):
         """Esta funcion calcula y muestra las estadisticas a partir de los datos arrojados por las anteriores 2 funciones"""
         promedio_cola = self.tiempo_cola / self.pacientes_atendidos if self.pacientes_atendidos > 0 else 0
-        print("Pacientes atendidos:", self.pacientes_atendidos)
-        print("Tiempo total en cola:", self.tiempo_cola)
-        print("Promedio de tiempo en cola por paciente:", promedio_cola)
+        print("Pacientes atendidos en pregunta 3:", self.pacientes_atendidos)
+        print("Tiempo total en cola en pregunta 3:", self.tiempo_cola)
+        print("Promedio de tiempo en cola por paciente en pregunta 3:", promedio_cola)
 
 
 # Parámetros del sistema
